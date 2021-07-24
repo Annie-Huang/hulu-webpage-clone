@@ -128,6 +128,13 @@ h4 {
     #08141f 100%
   );
 }
+.sub-header > div:last-of-type {
+  justify-self: end;
+  align-self: end; /* I don't see the different by adding this */
+}
+.sub-header > div:last-of-type .sub-link {
+  text-align: center;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
